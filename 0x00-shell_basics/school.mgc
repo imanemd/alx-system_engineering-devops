@@ -1,2 +1,3 @@
 0 string SCHOOL School data
-file -C -m school.magic school.mgc
+file -C -m school.mgc school.mgc
+file -m school.mgc *
