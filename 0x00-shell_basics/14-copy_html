@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -name '*.html' -newer ../ -exec cp -u {} ../ \;
+for file in *.html; do cp -u "$file" "../" 2>/dev/null; done
