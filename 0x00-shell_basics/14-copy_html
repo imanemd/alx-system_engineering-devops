@@ -1,2 +1,2 @@
 #!/bin/bash
-for file in *.html; do cp -u "$file" "../" 2>/dev/null; done
+rsync -u --ignore-existing --include '*.html' --exclude '*' ./ ../
